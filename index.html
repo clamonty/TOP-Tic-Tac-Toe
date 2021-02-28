@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>TOP Tic-Tac-Toe</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="selection">
+      <select name="difficulty" id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+        <option value="l33t">l33t</option>
+      </select>
+      <form>
+        <div class="select-x">
+          <label class="checked" for="cross">X</label>
+          <input type="radio" name="selection" id="cross" checked>
+        </div>
+        <div class="select-o">
+          <label for="circle">O</label>
+          <input type="radio" name="selection" id="circle">
+        </div>
+      </form>
+    </div>
+    <div class="gameboard">
+      <div class="gamesquare square1">x</div>
+      <div class="gamesquare square2"></div>
+      <div class="gamesquare square3"></div>
+      <div class="gamesquare square4"></div>
+      <div class="gamesquare square5"></div>
+      <div class="gamesquare square6"></div>
+      <div class="gamesquare square7"></div>
+      <div class="gamesquare square8"></div>
+      <div class="gamesquare square9"></div>
+    </div>
+    <button class="restart-btn">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
