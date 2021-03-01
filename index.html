@@ -18,27 +18,21 @@
         <option value="hard">Hard</option>
         <option value="l33t">l33t</option>
       </select>
-      <form>
-        <div class="select-x">
-          <label class="checked" for="cross">X</label>
-          <input type="radio" name="selection" id="cross" checked>
-        </div>
-        <div class="select-o">
-          <label for="circle">O</label>
-          <input type="radio" name="selection" id="circle">
-        </div>
-      </form>
+      <div class="symbolContainer">
+        <div class="cross-select checked">x</div>
+        <div class="circle-select">o</div>
+      </div>
     </div>
     <div class="gameboard">
-      <div class="gamesquare square1">x</div>
-      <div class="gamesquare square2"></div>
-      <div class="gamesquare square3"></div>
-      <div class="gamesquare square4"></div>
-      <div class="gamesquare square5"></div>
-      <div class="gamesquare square6"></div>
-      <div class="gamesquare square7"></div>
-      <div class="gamesquare square8"></div>
-      <div class="gamesquare square9"></div>
+      <div class="gamesquare square1" data-key=0></div>
+      <div class="gamesquare square2" data-key=1 ></div>
+      <div class="gamesquare square3" data-key=2 ></div>
+      <div class="gamesquare square4" data-key=3 ></div>
+      <div class="gamesquare square5" data-key=4 ></div>
+      <div class="gamesquare square6" data-key=5 ></div>
+      <div class="gamesquare square7" data-key=6 ></div>
+      <div class="gamesquare square8" data-key=7 ></div>
+      <div class="gamesquare square9" data-key=8 ></div>
     </div>
     <button class="restart-btn">Restart</button>
   </div>
